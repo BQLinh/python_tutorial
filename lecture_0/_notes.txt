@@ -1,0 +1,8 @@
+- tạo 1 số chương trình cơ bản trong python
+
+1 chương trình(program) là tập hợp của các câu lệnh để thực hiện 1 chức năng nào đó
+vi dụ(demo):
+- chương trình in ra tổng 2 số(hiện thị trên terminal)
+- chương trình lưu danh sách học sinh(hiển thị trên terminal)
+- ứng dụng helloworld cơ bản
+- web với helloworld
