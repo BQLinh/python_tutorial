@@ -7,4 +7,4 @@
 
 # note: lệnh cd để di chuyển đến 1 folder nào đó
 # lệnh ls: để xem các thư mục con và file ở thư mục hiện tại
-print('hello world!!!!')
+print('hello world!!!!', 'This is Linh')
