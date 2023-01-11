@@ -1,3 +1,5 @@
+- google: tạo 1 lỗi cơ bản
+
 - tạo 1 số chương trình cơ bản trong python
 
 1 chương trình(program) là tập hợp của các câu lệnh để thực hiện 1 chức năng nào đó
@@ -7,6 +9,14 @@ ví dụ(demo):
 - ứng dụng helloworld cơ bản
 - web với helloworld
 
+- framework, thư viện
+- env 
+- pip
+  + install thư viện bất kì
+  + chạy 1 chương trình
+    - flask
+    - fastapi
+    - selenium
 
 
 * 1 số khái niệm
@@ -15,4 +25,4 @@ ví dụ(demo):
 - backend
 - frontend
 - database
-- 
+  + bảng 

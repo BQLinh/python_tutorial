@@ -21,4 +21,4 @@ def total(): # function này để tính tổng 2 số
 
 
 # print(123)
-print(456)
+print(abc)
