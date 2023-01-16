@@ -10,17 +10,23 @@ ví dụ(demo):
 - web với helloworld
 
 - framework, thư viện
-- env 
+a : 1
+a : 2
++ django
++ flask
+
+- env: enviroment
 - pip
   + install thư viện bất kì
   + chạy 1 chương trình
     - flask
     - fastapi
-    - selenium
+    - selenium: btvn
 
+- vào trang pypi để lấy câu lệnh cài đặt thư viên
 
 * 1 số khái niệm
-- port 
+- port: cổng,  
 - url
 - backend
 - frontend
