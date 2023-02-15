@@ -1,0 +1,27 @@
+Các nội dung chính
+
+- Hello world
+
+- lệnh print, input
+
+- cách comment
+
+- biến  
+  + khai báo biến
+  + các loại biến
+
+- các phép toán
+
+- điều kiện: if - else
+
+- vòng lặp
+  + for
+  + while
+
+- hàm
+  + hàm truyền tham số đầu vào và hàm không truyền tham số
+  + hàm trả về kết quả và không trả về kq
+
+- class - object
+  + 
+- block
