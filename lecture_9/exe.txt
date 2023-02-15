@@ -1,0 +1,7 @@
+Tạo 1 chương trình quản lý danh sách học viên
++ Hiển thị học sinh
++ Tìm kiếm học sinh
++ Thêm học sinh
++ Xóa học sinh
++ Sủa thông tin học sinh
+

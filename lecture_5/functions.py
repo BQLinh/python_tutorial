@@ -9,3 +9,6 @@ def hello(name):
 # Hàm nhận giá trị đầu vào (gọi là tham số), và trả về kq
 def hello(name):
     return name
+
+
+# cách đặt tên hàm

@@ -4,3 +4,6 @@ class Human:
         self.age = age
     def run(self):
         print(self.name + ' can run')
+
+
+# cách đặt tên class
