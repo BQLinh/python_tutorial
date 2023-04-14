@@ -16,6 +16,8 @@ class Student:
         self.name = name
         self.diemtb = diemtb
 
+    
+
 manager = Manage()
 
 while True:
