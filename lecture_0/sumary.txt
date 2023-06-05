@@ -1,0 +1,13 @@
+- cài đặt + giới thiệu các tool
+
+- các lệnh git cơ bản: pull, push, commit, add
+
+- các cách chạy file python
+  + bằng click
+  + bằng command
+
+- pip
+
+- env
+
+

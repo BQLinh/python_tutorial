@@ -10,8 +10,6 @@ ví dụ(demo):
 - web với helloworld
 
 - framework, thư viện
-a : 1
-a : 2
 + django
 + flask
 
