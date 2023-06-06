@@ -20,3 +20,5 @@ printString: in chuỗi vừa nhập sang chữ hoa.
 + chu vi hình vuông: cạnh là a
 
 7 - Viết chương trình tính diện tích hình tròn với bán kính r
+
+asdasdasdasdasd
