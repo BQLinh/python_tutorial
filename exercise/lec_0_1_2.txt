@@ -1,0 +1,16 @@
+1. Sử dụng các lệnh để tạo làm việc với file
+
+2. Ôn các cách chạy 1 file python
+
+3. viết chương trình tính tổng 2 số nhập từ bàn phím
+
+4. Viết chương trình tính diện tích 
+  - hình vuông (với cạnh a), chữ nhật (với 2 cạnh a,b) nhập từ bàn phím
+  - hình tròn với bán kính r nhập từ bàn phím
+
+5. in ra màn hình kết quả của phương trình
+y = ....
+với x lần lượt là 1,4,6,12
+
+7. Viết phương trình in ra: "Xin chao {name}"
+với {name} là giá trị được nhập từ bàn phím
