@@ -6,3 +6,4 @@ print(hex(id(name)))
 
 # kiểu của biến
  #heloollo
+ #oi goi oigit 
