@@ -1,0 +1,24 @@
+Viết chương trình tìm tất cả các số chia hết cho 7 nhưng không phải bội số của 5, nằm trong đoạn 2000 và 3200 (tính cả 2000 và 3200). Các số thu được sẽ được in thành chuỗi trên một dòng, cách nhau bằng dấu phẩy.
+
+2 - Định nghĩa một class có ít nhất 2 method:
+getString: để nhận một chuỗi do người dùng nhập vào từ giao diện điều khiển.
+printString: in chuỗi vừa nhập sang chữ hoa.
+
+3 - Viết một hàm tính giá trị bình phương của một số.
+
+4 - Viết chương trình tính giai thừa của 1 số
+
+5 - Tạo 1 class People, có các thuộc tính chiều cao, cân năng, trên
+    + tạo ra phưong thức run và hello cho 2 đối tượng đó ( định nghĩa tuỳ ý)
+    + tạo ra 1 hàm để thay đổi chiều cao, 1 hàm thay đổi tên của đối tượng
+    + Tạo ra 2 đối tượng và so sánh chiều cao của 2 đối tượng đó (in ra màn hình A cao hơn B, hay A = B, A < B)
+
+
+6 - Viết 1 chương trình tính 
++ chu vi hình tròn( bánh kính r nhập từ bàn phím)
++ chu vi hình chữ nhật: 2 cạnh a,b
++ chu vi hình vuông: cạnh là a
+
+7 - Viết chương trình tính diện tích hình tròn với bán kính r
+
+asdasdasdasdasd

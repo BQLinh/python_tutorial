@@ -1,0 +1,23 @@
+Viết chương trình tính:
+- Chu vi và diện tích hình chữ nhật có 2 cạnh a,b. a,b nhập từ bàn phím
+- Tính chu vi và diện tích hình tròn bán kính r nhập từ bàn phím. cho PI=3.14
+- tính tổng các số từ 200 - 300
+- tìm tất cả các số chia hết cho 3 nằm trong khoảng từ 100-200
+- tìm tất cả các số chia hết cho 4 và 7 nằm trong khoảng từ 100-200
+
+Tạo 1 menu gồm các mục
+1- Danh sách học sinh
+2- Tìm kiếm học sinh
+3- Thêm học sinh
+4- Xóa học sinh
+0- Thoát
+
+khi người dùng ấn 1 => In ra "Danh sách học sinh"
+khi người dùng ấn 2 => In ra "Tìm kiếm học sinh"
+khi người dùng ấn 3 => In ra "Thêm học sinh"
+khi người dùng ấn 4 => In ra "Xóa học sinh"
+khi người dùng ấn 0 => In ra "Thoát" 
+trường hợp khác => "In ra mời bạn nhập lại"
+
+*khi người dùng ấn 0 thì ngừng chương trình, nếu không thì chương trình sẽ tiếp tục nhập
+* tham khảo lệnh break ở đây: https://viettuts.vn/python/lenh-break-trong-python
