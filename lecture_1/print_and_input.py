@@ -4,4 +4,7 @@ print('Xin chao Linh!!!')
 
 # lệnh input
 
-input('Xin mời nhập 1 số :')
+a = input('Xin mời nhập 1 số :')
+
+# kiểu của input
+print(type(a))

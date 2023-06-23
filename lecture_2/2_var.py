@@ -68,5 +68,5 @@ age = 22 # kiểu số
 is_true = False # kiểu boolean
 
 # để kiểm tra kiểu dữ liệu của biến dùng hàm type()
-
+type(name)
 # cách đặt tên biến

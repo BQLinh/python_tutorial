@@ -18,7 +18,3 @@ def total(): # function này để tính tổng 2 số
     b = 234 # khai báo biến b với giá trị là 234
     total = a + b # khai báo biến total có giá trị bằng a+ b
     print(total) # in ra màn hình giá trị của total
-
-
-# print(123)
-print(abc)

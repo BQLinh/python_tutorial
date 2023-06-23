@@ -1,0 +1,4 @@
+lệnh id => để lấy địa chỉ của 1 biến
+ví dụ: 
+name = 'linh'
+print(id(name))

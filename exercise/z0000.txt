@@ -1,0 +1,77 @@
+Link tham khảo https://quantrimang.com/hoc/ham-range-trong-python-168123
+Hàm range(start, stop, step) => hàm này sẽ trả ra 1 danh sách các số
+- start: số bắt đầu, mặc định là 0, nếu mình không điền gì, nó sẽ lấy start là 0
+- stop: số kết thúc
+- step: khoảng cách giữa các số, mặc định là 1, nghĩa là nếu mình không điền thì giá trị của step = 1
+
+Ví dụ 1:
+for i in range(10): # chạy từ 0 đến 10 mỗi số cách nhau 1 đơn vị, kết thúc là 10, không lấy số 10
+    print(i)
+	
+>> 
+0
+1
+2
+3	
+4
+5
+6
+7
+8
+9
+
+Ví dụ 2: 
+for i in range(1, 10, 3): # nghĩa là bắt đầu từ số 1, kết thúc trước số 10, và khoảng cách các số là 3
+    print(i)
+	
+>> 
+1
+4
+7
+
+Ví dụ 3: 
+for i in range(2, 20, 4): # nghĩa là bắt đầu từ số 2, kết thúc trước số 20, và khoảng cách các số là 4
+    print(i)
+	
+>> 
+2
+6
+10
+14
+18
+
+Ví dụ 4:
+for i in range(20, 2, -4): # nghĩa là bắt đầu từ số 20, kết thúc trước số 2, và khoảng cách các số là -4, tức là từ số đầu sẽ giảm 4 đơn vị
+    print(i)
+	
+>> 
+20
+16
+12
+8
+4
+
+
+
+Bài tập 1: in các số từ 1-10 theo thứ tự tăng dần
+
+Bài tập 2: In các số từ 1-10 theo thứ tự giảm dần
+	Yêu cầu là in các số từ 1 tới 10 theo thứ tự giảm dần. Với bài tập Python này, chúng ta chỉ cần sử dụng một vòng lặp for trong Python.
+Bài tập 3: in bảng số từ 1 đến 100
+	In một bảng số thỏa mãn điều kiện:
+
+	Bảng số gồm 10 hàng và 10 cột
+	Các giá trị trong Pythonột là liên tiếp nhau
+	Các giá trị trong hàng hơn kém nhau 10
+
+Bài tập 4: in bảng nhân
+	In một bảng nhân của một số bất kỳ với các số từ 1 tới 10 và hiển thị kết quả.
+
+	Với bài tập Python này, chúng ta chỉ sử dụng một vòng lặp và tăng dần giá trị của số nhân lên.
+
+Bài tập 5: in bảng cửu chương rút gọn
+	Bảng cửu chương rút gọn là bảng có hàng là kết quả của phép nhân một số với các giá trị từ 1 tới 10. Chúng ta sẽ in 9 hàng tương ứng với các số từ 2 tới 10.
+	
+Bài tập 6: in các số chẵn trong dãy từ 1-10
+
+Bài tập 7: in các số lẻ trong dãy từ 1-10
