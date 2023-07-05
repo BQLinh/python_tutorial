@@ -162,9 +162,9 @@ ex: python hello.py
     # để sử dụng hàm chúng ta cần gọi hàm
     Ex: hello('linh')
     # Ở ví dụ rất đơn giản trên. Giả sử chúng ta có 1 chương trình cần in ra là "Xin chao $name" 10 lần. 
-    # nếu không sử dụng function, chúng r a sẽ phải viết đoạn code này 10 lần. Bây giờ, giả sử chúng ta cần chuyển
+    # nếu không sử dụng function, chúng ta sẽ phải viết đoạn code này 10 lần. Bây giờ, giả sử chúng ta cần chuyển
     "Xin chào $name" thành "Chúc $name 1 ngày vui vẻ" vậy thì chúng ta phải sửa chương trình 10 chỗ. Nhưng nếu sử dụng fucntion
-    chúng ta chỉ cần sửa "Xin chào $name" thành "Chúc $name 1 ngày vui vẻ" thôi.
+    chúng ta chỉ cần sửa "Xin chào $name" thành "Chúc $name 1 ngày vui vẻ" trong fucntion hello() thôi.
     
     1 func có thể trả về kết quả, chúng ra dùng lệnh return
     Ex
