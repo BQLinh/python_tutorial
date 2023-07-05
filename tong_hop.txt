@@ -1,0 +1,179 @@
+# Các lệnh làm việc với terminal
+
+1. Tạo folder
+mkdir $folder_name
+ex: mkdir hello
+
+2. Xem danh sách file và folder
+ls
+DIR
+
+3. Di chuyển đến 1 folder 
+cd $folder_path
+ex: cd hello, cd C://windows
+
+4. Tạo file 
+echo > $file_name
+
+ex: echo > hello.py
+ex: echo > python_co_ban/helloworld.py
+
+5. Mở vscode
+code $folder
+
+ex: code .
+ex: code hello.py
+ex: example
+
+6. Chạy file python
+python $file_name
+
+ex: python hello.py
+
+# Python topics
+
+1. Input, output
+- Lệnh in ra màn hình: 
+    - Mục đích: in ra màn hình terminal 1 giá trị nào đó
+    - Cú pháp 
+    print($value)
+
+    Ex: print('xin chào các bạn')
+    Ex: print("hello")
+    - Lưu ý: có thể dùng dấu "", hoặc '' đều được
+
+
+- Lệnh nhận giá trị từ bàn phím:
+    - Mục đích: lấy ra trị từ bàn phím
+    - Cú pháp
+    input('Mời bạn nhập 1 số')
+
+    # lệnh input sẽ trả về kết quả và chúng ta cần kết quả này. Do đó ta nên tạo 1 biến để lưu giá trị đó
+    Ex: name = input('Mời bạn nhập tên)
+    # lệnh input sẽ trả về kết quả là 1 chuỗi, do đó nếu chúng ta muốn lấy các giá trị số thì chúng ta phải chuyển giá trị đó về kiểu số
+    Ex: a = int(input('Mời bạn nhập 1 số:'))
+
+2. Comment và Biến
+- Comment:
+    - Mục đích: để ghi chú, hoặc để tạm thời bỏ qua 1 số dòng code
+    - Cú pháp: chúng ta chỉ cần thêm dấu # trước dòng chúng ta muốn comment
+    # để comment nhiều dòng trên vscode chúng ta bôi đen nhưng dòng đó và ấn ctrl + ?
+
+- Biến:
+    - Mục đích: lưu trữ giá trị
+    - Cú pháp:
+    var_name = $value 
+    # trong đó; var_name là tên biến, đặt tuỳ thích. $value là giá trị, hoặc biêủ thức, function
+    Ex: x = 5
+    Ex: name = "linh"
+    Ex: value = input("Moi ban nhap gia trị")
+    
+    - Các kiểu biến cơ bản
+        string: kiểu chuỗi
+        int: kiểu số nguyển
+        float: số thực
+        boolean: đúng sai
+
+# Block trong python ( 1 khối code trong python)
+    1 block trong python sẽ được lùi vào 1 tab(4 space) so với dòng lệnh của block đó
+
+3. if - else
+    - Mục đích: để kiểm tra các điều kiện
+    - Cú pháp
+    if {condition_1} :
+        do_something()
+    elif {condition_2}:
+        do_something()
+    else:
+        do_something()
+
+    # Mỗi khối if-else sẽ mở đầu bằng 1 điều kiện if
+    # tối đa có 1 câu if
+    # elif : có thể không có hoặc có nhiều 
+    # else: có thể không có, tối đa có 1
+
+    # đoạn code trong mỗi điều kiện if, elif, else là 1 block, tức là chúng phải được viết lùi vào 1 tab so với các câu lệnh đó
+    Ex:
+        if x == 0:
+            print('x = 0')
+        elif x < 0:
+            print('x là 1 số âm')
+        else:
+            print('x là 1 số dương')
+
+    # nếu 1 điều kiện trong khối if-else đúng, chương trình sẽ thực thi đoạn code trong đó, và ngừng kiểm tra các điều kiện còn lại
+    Ex:
+        x = 1
+        if x > 0:
+            print('X là 1 số dương')
+        elif x < 5:
+            print('X nhỏ hơn 5')
+    # ví dụ trên x đều thoả mãn 2 đk, nhưng chương trình sẽ chỉ in ra là: X là 1 số dương
+    # lí do: điều kiện x > 0 thoả mãn nên chương trình sẽ thực thi code trong điều kiện đó và ngừng kiểm tra các đk còn lại
+
+4. Vòng lặp: dùng để chạy 1 số câu lệnh nhiều lần
+- While
+    - Cú pháp:
+    while {condition}:
+        do_something()
+    
+    Ex:
+        x = 1
+        while x < 10:
+            print(x)
+            x += 1
+    # câu lệnh này sẽ in ra x từ 1 - 9
+    
+    - Cách hoạt động: 
+    Đầu tiên chương trình kiểm tra điều kiện, nếu đúng chương trình tiếp tục thực thi các đoạn code trong đó
+    Nếu điều kiện không còn đúng, chương trình sẽ chạy tiếp các câu lệnh sau vòng lặp
+
+    # sau dòng while, đoạn code mình muốn chạy trong đó cần được lùi vào 1 tab
+    # ở ví dụ trên, chúng ta cần tăng x lên 1 đơn vị , nếu không x sẽ luôn bằng 1 và chương trình của chúng ta sẽ chạy mãi
+
+- For:
+    - Cú pháp:
+    for $element in $array:
+        do_something()
+    trong đó element là 1 biến để lưu trữ các phần tử trong mảng, arr có thể là 1 list, tuple, set 
+    Ex:
+        my_arr = [1,2,3,4,5,6]
+        for i in my_arr:
+            print(i)
+    
+    # để duyệt 1 mảng số trong python, chúng ta có thể dùng hàm range()
+    for i in range(1,11):
+        print(i)
+    
+    # chúng ta sẽ có kết quả tương tự với
+    for i in [1,2,3,4,5,6,7,8,9,10]:
+        print(i)
+
+5. Function
+    - Mục đích: khi code chúng ra sẽ có những đoạn code cần sử dụng lại, 
+    hoặc là 1 chương trình sẽ có nhiều đoạn logic khác nhau. 
+    Do đó, sử dụng hàm giúp chúng ra chia chương trình làm nhiều phần nhỏ, và làm chương trình ngắn gọn hơn
+
+    Ex:
+    def hello(name):
+        print('Xin chao', name)
+    
+    # đoạn code trên là phần khai báo hàm
+    # để sử dụng hàm chúng ta cần gọi hàm
+    Ex: hello('linh')
+    # Ở ví dụ rất đơn giản trên. Giả sử chúng ta có 1 chương trình cần in ra là "Xin chao $name" 10 lần. 
+    # nếu không sử dụng function, chúng r a sẽ phải viết đoạn code này 10 lần. Bây giờ, giả sử chúng ta cần chuyển
+    "Xin chào $name" thành "Chúc $name 1 ngày vui vẻ" vậy thì chúng ta phải sửa chương trình 10 chỗ. Nhưng nếu sử dụng fucntion
+    chúng ta chỉ cần sửa "Xin chào $name" thành "Chúc $name 1 ngày vui vẻ" thôi.
+    
+    1 func có thể trả về kết quả, chúng ra dùng lệnh return
+    Ex
+    def trung_binh_cong(a,b,c):
+        return (a + b+ c)/3
+
+    a = trung_binh_cong(1,2,3)
+    print(a)
+
+    Khi chúng ta cần thực hiện 1 chức năng nào đó, và muốn chúng trả về kq, chúng ta sẽ cần đến return
+    # trong ví dụ trên, chúng ta cần tính trung bình cộng của 3 số, và có lẽ chúng ta sẽ muốn lâý được giá trị trung bình cộng đó ra phải không
+    vì vậy chúng ta sẽ cần lệnh return
