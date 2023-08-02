@@ -9,3 +9,11 @@
 # gõ câu: python3 -m venv env_name
 # env_name là tên môi trường của mình, mình có thể để các tên khác ví dụ: linh_env => python3 -m venv linh_env
 # thường thì tên môi trường mình sẽ để là env => cú pháp: python3 -m venv env
+
+
+a: 1.1
+
+b: 2.3
+# python3 -m venv env_name
+# deactivate
+# source ./myenv/bin/activate

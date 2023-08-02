@@ -1,7 +1,11 @@
-Tạo 1 chương trình quản lý danh sách học viên
-+ Hiển thị học sinh
-+ Tìm kiếm học sinh
-+ Thêm học sinh
-+ Xóa học sinh
-+ Sủa thông tin học sinh
-
+Tạo 1 chương trình quản lý danh sách học viên gồm các chức năng:
++ hiển thị menu:
+    1. Hiển thị danh sách học sinh
+    2. Tìm kiếm học sinh => hiện thị thông tin học sinh đó
+    3. Thêm học sinh
+    4. Xóa học sinh
+    5. Sửa thông tin học sinh
+    6. Thoát chương trình
++ chức năng: người sẽ thực hiện các chức năng tương ứng khi nhập từ 1-6
++ nếu người dùng nhập sai => nhập lại
++ học sinh gồm các thuộc tính:ID, name, age, class
