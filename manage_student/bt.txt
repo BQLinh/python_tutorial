@@ -1,0 +1,9 @@
+1. tạo id tự động tăng từ 1
+2. thêm average_score( điểm tb). Sau đó thêm chức năng tìm học sinh có điểm tb cao nhất
+3. ở phần danh sách học sinh sẽ in thêm rank của học sinh. Rank được tính theo điểm tb. 
+    average_score >= 8 là good
+    8 > average_score >=5 là normal
+    average_score < 5 là not pass
+4. Phần search sẽ nâng cấp: có 2 lựa chọn khi search
+    chọn 1: search chính xác theo id
+    chọn 2: search theo tên. In ra tất cả các tên chứ từ khoá tìm kiếm

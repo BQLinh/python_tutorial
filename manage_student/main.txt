@@ -1,0 +1,80 @@
+class Student:
+    def __init__(self, id, name, age, student_class):
+        self.id = id
+        self.name = name
+        self.age = age
+        self.student_class = student_class
+
+class Manager:
+    def __init__(self):
+        s1 = Student(1,'hai', 25, '1A')
+        s2 = Student(2, 'Tu Anh', 24, '1B')
+        self.list_students = [s1, s2] # [s1', s2']
+    
+
+    def show_menu(self):
+        print('=====================')
+        print('1. Danh sách học sinh')
+        print('2. Tìm kiếm học sinh')
+        print('3. Thêm học sinh')
+        print('4. Xóa học sinh')
+        print('5. Sửa thông tin học sinh')
+        print('6. Thoát chương trình')
+
+    def show_list_student(self):
+        for s in self.list_students:
+            print(f'{s.id}--{s.name}')
+    
+    def search_student(self, id):
+        check = False
+        for i, s in enumerate(self.list_students):
+            if s.id == id:
+                check = True
+                print(f'{s.id}--{s.name}')
+        if check is False:
+            print('Khong tim thay')
+
+    def delete_student(self, id):
+        for i, s in enumerate(self.list_students):
+            if s.id == id:
+                # del(self.list_students[i])
+                self.list_students.remove(s)
+                # self.list_students.pop(i)
+
+    def edit_student(self, id, name, age, student_class):
+        pass
+
+    def add_student(self, id, name, age, student_class):
+        pass
+
+
+manager = Manager()
+while True:
+    manager.show_menu()
+    inp = input('Moi ban nhap 1 so: ')
+
+    if inp == '1':
+        print('>>Danh sách học sinh: ')
+        manager.show_list_student()
+
+    elif inp == '2':
+        print('>>Tìm kiếm học sinh')
+        id_input = int(input('Moi ban nhap id: '))
+        manager.search_student(id_input)
+
+    elif inp == '3':
+        print('>>Thêm học sinh')
+
+    elif inp == '4':
+        print('>>Xóa học sinh')
+        id_input = int(input('Moi ban nhap id: '))
+        manager.delete_student(id_input)
+        
+    elif inp == '5':
+        print('>>Sửa thông tin học sinh')
+    elif inp == '0':
+        print('>>Thoát')
+        break
+    else:
+        print('Mời bạn nhập lại')
+
